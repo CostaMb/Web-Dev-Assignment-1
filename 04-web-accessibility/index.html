@@ -1,77 +1,89 @@
-/* Page background */
-body {
-    background-color: #e85aa5; /* pink */
-    font-family: Arial, sans-serif;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-/* Center content */
-main {
-    width: 500px;
-    margin: auto;
-}
+<head>
+<meta charset="UTF-8">
+<title>Travel Photography Blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-/* Header */
-header {
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}
+<body>
 
-/* Basket button */
-header button {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    background: none;
-    border: none;
-}
+<!-- HEADER -->
+<header>
 
-header img {
-    width: 30px;
-}
+<h1>Travel Photography Blog</h1>
 
-/* Navigation */
-nav ul {
-    list-style: none;
-    padding: 0;
-}
+<!-- Basket Icon -->
+<button aria-label="View shopping cart">
+<img src="basket.svg" alt="">
+</button>
 
-nav li {
-    display: inline;
-    margin: 10px;
-}
+<!-- Navigation -->
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">About me</a></li>
+</ul>
+</nav>
 
-/* Images */
-img {
-    width: 100%;
-}
+</header>
 
-/* Each photo block */
-figure {
-    margin: 20px 0;
-    background: white;
-}
+<!-- MAIN CONTENT -->
+<main>
 
-/* Caption */
-figcaption {
-    background: #f5f5dc;
-    padding: 10px;
-    font-weight: bold;
-    color: black;
-}
+<!-- PHOTO 1 -->
+<figure>
+<img src="images/photo1.jpg" alt="Cold ocean water in Greenland">
+<figcaption>
+This was from a fabulous trip to the coast of Greenland with my family. The water was lovely - but very cold!
+</figcaption>
+<button>Add to Basket</button>
+</figure>
 
-/* Button */
-button {
-    width: 100%;
-    padding: 8px;
-    background: lightgray;
-    border: none;
-    cursor: pointer;
-}
+<!-- PHOTO 2 -->
+<figure>
+<img src="images/photo2.jpg" alt="Golden Gate Bridge in New York">
+<figcaption>
+A picture of the Golden Gate Bridge. New York! New York!
+</figcaption>
+<button>Add to Basket</button>
+</figure>
 
-/* Footer */
-footer {
-    text-align: left;
-    padding: 20px;
-}
+<!-- PHOTO 3 -->
+<figure>
+<img src="images/photo3.jpg" alt="River valley in Greenland">
+<figcaption>
+Another great photo from Greenland. It's a river valley where a glacier used to be.
+</figcaption>
+<button>Add to Basket</button>
+</figure>
+
+<!-- PHOTO 4 -->
+<figure>
+<img src="images/photo4.jpg" alt="Waterfall in nature">
+<figcaption>
+The waterfall made such a lovely sound. I could have fallen asleep!
+</figcaption>
+<button>Add to Basket</button>
+</figure>
+
+<!-- PHOTO 5 -->
+<figure>
+<img src="images/photo5.jpg" alt="Another travel photograph">
+<figcaption>
+Another beautiful travel photograph from my journey.
+</figcaption>
+<button>Add to Basket</button>
+</figure>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+<p>Copyright The Wondering Photographer 2018.</p>
+</footer>
+
+</body>
+</html>
