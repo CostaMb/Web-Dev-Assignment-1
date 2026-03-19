@@ -1,91 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
+/* Page background */
+body {
+    background-color: #e85aa5; /* pink */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
 
-<head>
-<meta charset="UTF-8">
-<title>Travel Photography Blog</title>
-</head>
+/* Center content */
+main {
+    width: 500px;
+    margin: auto;
+}
 
-<body>
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
 
-<!-- HEADER -->
-<header>
+/* Basket button */
+header button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: none;
+    border: none;
+}
 
-<h1>Travel Photography Blog</h1>
+header img {
+    width: 30px;
+}
 
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-<!-- NAVIGATION -->
-<nav>
-<a href="#">Home</a>
-<a href="#">Gallery</a>
-<a href="#">Cart</a>
-</nav>
+nav li {
+    display: inline;
+    margin: 10px;
+}
 
-</header>
-  
-<button>
-<img src="basket.svg" alt="Shopping cart">
-</button>
-<!-- MAIN CONTENT -->
-<main>
+/* Images */
+img {
+    width: 100%;
+}
 
-<section>
+/* Each photo block */
+figure {
+    margin: 20px 0;
+    background: white;
+}
 
-<h2>Photo Gallery</h2>
+/* Caption */
+figcaption {
+    background: #f5f5dc;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
 
-<!-- PHOTO 1 -->
-<figure>
-<img src="images/photo1.jpg" alt="Cold ocean water in Greenland">
-<figcaption>
-This was from a trip to Greenland with my family. The water was very cold!
-</figcaption>
-<button>Add to Basket</button>
-</figure>
+/* Button */
+button {
+    width: 100%;
+    padding: 8px;
+    background: lightgray;
+    border: none;
+    cursor: pointer;
+}
 
-<!-- PHOTO 2 -->
-<figure>
-<img src="images/photo2.jpg" alt="Golden Gate Bridge in New York">
-<figcaption>
-A picture of the Golden Gate Bridge. New York! New York!
-</figcaption>
-<button>Add to Basket</button>
-</figure>
-
-<!-- PHOTO 3 -->
-<figure>
-<img src="images/photo3.jpg" alt="River valley in Greenland">
-<figcaption>
-Another great photo from Greenland. A river valley where a glacier used to be.
-</figcaption>
-<button>Add to Basket</button>
-</figure>
-
-<!-- PHOTO 4 -->
-<figure>
-<img src="images/photo4.jpg" alt="Waterfall in nature">
-<figcaption>
-The waterfall made such a lovely sound. I could have fallen asleep!
-</figcaption>
-<button>Add to Basket</button>
-</figure>
-
-<!-- PHOTO 5 -->
-<figure>
-<img src="images/photo5.jpg" alt="Another travel photograph">
-<figcaption>
-Another beautiful travel photograph.
-</figcaption>
-<button>Add to Basket</button>
-</figure>
-
-</section>
-
-</main>
-
-<!-- FOOTER -->
-<footer>
-<p>Copyright The Wondering Photographer 2018.</p>
-</footer>
-
-</body>
-</html>
+/* Footer */
+footer {
+    text-align: left;
+    padding: 20px;
+}
