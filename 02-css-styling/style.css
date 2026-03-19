@@ -1,12 +1,52 @@
-body{
-font-family: Arial;
-background-color:#f4f4f4;
+/* Page background */
+body {
+    background-color: #bfbfbf;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-h1{
-color:blue;
+/* Main white container */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background-color: #eeeeee;
+    padding: 40px;
+    border-radius: 20px;
 }
 
-p{
-font-size:18px;
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #2f8f1f;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+/* Section headings */
+h2 {
+    color: #2f8f1f;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Smaller heading */
+h3 {
+    color: white;
+    font-size: 24px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Green highlight box */
+.highlight {
+    background-color: #2f8f1f;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
 }
