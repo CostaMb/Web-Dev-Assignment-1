@@ -1,20 +1,77 @@
+/* Page background */
 body {
-    font-family: Arial;
+    background-color: #e85aa5; /* pink */
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
+/* Center content */
+main {
+    width: 500px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Basket button */
+header button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: none;
+    border: none;
+}
+
+header img {
+    width: 30px;
+}
+
 /* Navigation */
-nav a {
-    margin-right: 10px;
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
 }
 
 /* Images */
 img {
     width: 100%;
-    max-width: 300px;
 }
 
-/* Layout */
+/* Each photo block */
 figure {
-    margin: 20px;
+    margin: 20px 0;
+    background: white;
+}
+
+/* Caption */
+figcaption {
+    background: #f5f5dc;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 8px;
+    background: lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding: 20px;
 }
