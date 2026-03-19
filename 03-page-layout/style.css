@@ -1,15 +1,36 @@
-.container{
-display:flex;
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial;
 }
 
-.sidebar{
-width:30%;
-background:#ddd;
-padding:20px;
+/* Header */
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-.content{
-width:70%;
-background:#eee;
-padding:20px;
+/* Content section */
+.content {
+    padding: 20px;
+}
+
+/* Gallery layout */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Images and video styling */
+.gallery img,
+.gallery video {
+    height: 200px;
+    object-fit: cover;
+}
+.gallery img,
+.gallery video {
+    margin: 0;
+    padding: 0;
 }
